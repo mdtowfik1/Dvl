@@ -836,9 +836,9 @@ def login():
 	print logo11
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m1.\x1b[1;96m Login  Facebook  "
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;97m Get Free Acces Tokens"
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m2.\x1b[1;97m Login using Token"
         time.sleep(0.05)
-        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;96m Login  Using Token  "
+        print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m3.\x1b[1;96m What Is token How To Get token "
         time.sleep(0.05)
 	print "\033[1;93m-•◈•-\033[1;91m> \033[1;91m0.\033[1;91m Exit             "
 	pilih_login()
@@ -850,10 +850,12 @@ def pilih_login():
 		pilih_login()
 	elif peak =="1":
 		login1()
-        elif peak =="2":
-	        print " EAAAAUaZA8jlABACK9Fy5BaoEGCPoX4EEeH4QQKSrsZBawvW27emZAUR6almZBPT1jqdpWxWnnAjm8Tn2P46FDtf2hdK0TPZCahuU7BeX6e6kqOv5Lacriu1sgr4PwlHOZBSwMqKsJlZBGLiTi5VvMUwIhPlVeWbBfhuAxHVeZB54lAOm6F91UOX6F5WCYMfAQdIZD "
+		elif peak =="2":
+	        tokenz()
+        elif peak =="3":
+	        os.system('xdg-open https://m.apkpure.com/get-access-token/com.proit.thaison.getaccesstokenfacebook/download/1-APK?from=versions%2Fversion')
 	        login()
-	elif peak =="3":
+	elif peak =="2":
 	        tokenz()
 	elif peak =="0":
 		keluar()
