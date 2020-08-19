@@ -260,7 +260,7 @@ NOTE  :- Need First Hand GirlFriend :-)
 """
 logo11 = """
 \033[1;96m                                             
-        \033[1;97m╭━━━╮
+\033[1;97m╭━━━╮
 \033[1;97m┃╭━╮┃
 \033[1;97m┃┃╱┃┣━━┳┳━━┳━━┳━╮
 \033[1;97m┃┃╱┃┃╭╮┣┫━━┫┃━┫╭╯
@@ -277,6 +277,9 @@ YOUTUBE :-  Tech Qaiser
 DISCLAIMRR :- This Tool Is only for Educational Purposes I am not responsible for any miss use
 
 NOTE  :- Need First Hand GirlFriend :-)
+
+====================================
+====================================
 
 """
 logo12 = """
@@ -757,11 +760,11 @@ def menu():
 	os.system("clear") #Dev:qaiser
         time.sleep(0.05)
 	print logo2
-	print "\033[1;96mLogged in User Info"
+	print "\033[1;97mLogged in User Info"
         time.sleep(0.05)
-	print "	   Name\033[1;97m:\033[1;97m"+nama+"\033[1;97m               "
+	print "	  \033[1;97m Name\033[1;97m:\033[1;97m"+nama+"\033[1;97m               "
         time.sleep(0.05)
-	print "	   ID\033[1;97m:\033[1;927m"+id+"\x1b[1;97m              "
+	print "	   ID\033[1;97m:\033[1;97m"+id+"\x1b[1;97m              "
         time.sleep(0.05)
         print "033[1;97m==========================\033[1;97m"
         time.sleep(0.05)
@@ -783,6 +786,7 @@ def pilih():
         elif unikers =="2":
 		os.system('clear')
 		print logo
+		brute()
 	elif unikers =="0":
 		jalan('Token Removed')
                 print logo22
