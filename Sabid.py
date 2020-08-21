@@ -1,5 +1,5 @@
 # Original Written By Qaiser Abbas
-# Youtube : Tech Qaiser
+# Youtube : Hacker Sabid
 # Facebook : Qaiser Abbas
 
 import marshal,zlib,base64
